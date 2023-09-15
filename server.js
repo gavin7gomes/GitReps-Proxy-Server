@@ -10,7 +10,7 @@ const CLIENT_ID = "b1b55489f40c124966a1";
 var app = express();
 
 const corsOptions = {
-  origin: 'https://https://gitreps.netlify.app',
+  origin: '*',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
 };
