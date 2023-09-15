@@ -11,7 +11,8 @@ var app = express();
 
 app.use(cors({
     origin: 'https://gitreps.netlify.app/',
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE'
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
   }));
 app.use(bodyParser.json());
 
