@@ -9,7 +9,10 @@ const CLIENT_ID = "b1b55489f40c124966a1";
 
 var app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://gitreps.netlify.app/',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE'
+  }));
 app.use(bodyParser.json());
 
 app.get("/getAccessToken", async function (req, res) {
