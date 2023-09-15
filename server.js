@@ -15,6 +15,7 @@ app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Headers", "*");
 })
 app.use(cors());
+
 app.use(bodyParser.json());
 
 app.get("/getAccessToken", async function (req, res) {
