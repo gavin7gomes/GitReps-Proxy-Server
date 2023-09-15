@@ -52,7 +52,7 @@ app.get("/getUserData", async function (req, res) {
 })
 
 app.get("/", function (req, res) {
-    res.write('Lets proxy');
+    res.write('Lets proxyy');
     res.end();
 })
 
