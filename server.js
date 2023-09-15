@@ -51,6 +51,11 @@ app.get("/getUserData", async function (req, res) {
         })
 })
 
+app.get("/", function (req, res) {
+    res.write('Lets proxy');
+    res.end();
+})
+
 app.listen(4000, function(){
     console.log("CORS server running on port 4000");
 })
