@@ -1,4 +1,4 @@
-# My Node.js Application
+# Gitreps Proxy
 
 Welcome to my Node.js application! This application acts as a proxy to a react application that directs API requests to github developer APIs to eliminate CORS issues.
 
